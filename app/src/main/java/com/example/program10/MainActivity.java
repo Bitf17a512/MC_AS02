@@ -110,3 +110,48 @@ public class MainActivity extends AppCompatActivity {
                                                 text.setText("Given character is a grass Character");
 
                                             }
+                                            else
+                                            {
+                                                int comparev = Character.compare(char1, 'v');
+                                                if (comparev == 0)
+                                                {
+                                                    TextView text = (TextView) findViewById(R.id.textView2);
+                                                    text.setText("Given character is a grass Character");
+
+                                                }
+                                                else
+                                                {
+                                                    int comparew = Character.compare(char1, 'w');
+                                                    if (comparew == 0)
+                                                    {
+                                                        TextView text = (TextView) findViewById(R.id.textView2);
+                                                        text.setText("Given character is a grass Character");
+
+                                                    }
+                                                    else
+                                                    {
+                                                        int comparex = Character.compare(char1, 'x');
+                                                        if (comparex == 0)
+                                                        {
+                                                            TextView text = (TextView) findViewById(R.id.textView2);
+                                                            text.setText("Given character is a grass Character");
+
+                                                        }
+                                                        else
+                                                        {
+                                                            int comparez = Character.compare(char1, 'z');
+                                                            if (comparez == 0)
+                                                            {
+                                                                TextView text = (TextView) findViewById(R.id.textView2);
+                                                                text.setText("Given character is a grass Character");
+
+                                                            }
+                                                            else
+                                                            {
+                                                                int compareb = Character.compare(char1, 'b');
+                                                                if (compareb == 0)
+                                                                {
+                                                                    TextView text = (TextView) findViewById(R.id.textView2);
+                                                                    text.setText("Given character is a sky Character");
+
+                                                                }
