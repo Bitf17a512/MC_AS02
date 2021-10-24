@@ -20,3 +20,11 @@ public class MainActivity extends AppCompatActivity {
         EditText medittext = (EditText) findViewById(R.id.editText1);
         String strusername = medittext.getText().toString();
         Character char1 = strusername.charAt(0);
+        //  System.out.println("abcd");
+        int compareOneTwo = Character.compare(char1, 'a');
+        if (compareOneTwo == 0)
+        {
+            TextView text = (TextView) findViewById(R.id.textView2);
+            text.setText("Given character is a grass Character");
+
+        }
