@@ -65,3 +65,12 @@ public class MainActivity extends AppCompatActivity {
                             text.setText("Given character is a grass Character");
 
                         }
+                        else
+                        {
+                            int comparen = Character.compare(char1, 'n');
+                            if (comparen == 0)
+                            {
+                                TextView text = (TextView) findViewById(R.id.textView2);
+                                text.setText("Given character is a grass Character");
+
+                            }
