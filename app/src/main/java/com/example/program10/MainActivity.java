@@ -14,3 +14,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+
+
+    public void sendMessage(View view) {
+        EditText medittext = (EditText) findViewById(R.id.editText1);
+        String strusername = medittext.getText().toString();
+        Character char1 = strusername.charAt(0);
