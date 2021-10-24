@@ -28,3 +28,13 @@ public class MainActivity extends AppCompatActivity {
             text.setText("Given character is a grass Character");
 
         }
+
+        else
+        {
+            int comparec = Character.compare(char1, 'c');
+            if (comparec == 0)
+            {
+                TextView text = (TextView) findViewById(R.id.textView2);
+                text.setText("Given character is a grass Character");
+
+            }
