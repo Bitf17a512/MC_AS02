@@ -74,3 +74,12 @@ public class MainActivity extends AppCompatActivity {
                                 text.setText("Given character is a grass Character");
 
                             }
+                            else
+                            {
+                                int compareo = Character.compare(char1, 'o');
+                                if (compareo == 0)
+                                {
+                                    TextView text = (TextView) findViewById(R.id.textView2);
+                                    text.setText("Given character is a grass Character");
+
+                                }
