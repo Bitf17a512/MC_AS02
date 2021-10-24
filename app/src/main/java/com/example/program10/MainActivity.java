@@ -173,3 +173,112 @@ public class MainActivity extends AppCompatActivity {
                                                                             text.setText("Given character is a sky Character");
 
                                                                         }
+                                                                        else
+                                                                        {
+                                                                            int compareh = Character.compare(char1, 'h');
+                                                                            if (compareh == 0)
+                                                                            {
+                                                                                TextView text = (TextView) findViewById(R.id.textView2);
+                                                                                text.setText("Given character is a sky Character");
+
+                                                                            }
+                                                                            else
+                                                                            {
+                                                                                int comparek = Character.compare(char1, 'k');
+                                                                                if (comparek == 0)
+                                                                                {
+                                                                                    TextView text = (TextView) findViewById(R.id.textView2);
+                                                                                    text.setText("Given character is a sky Character");
+
+                                                                                }
+                                                                                else
+                                                                                {
+                                                                                    int comparel = Character.compare(char1, 'l');
+                                                                                    if (comparel == 0)
+                                                                                    {
+                                                                                        TextView text = (TextView) findViewById(R.id.textView2);
+                                                                                        text.setText("Given character is a sky Character");
+
+                                                                                    }
+                                                                                    else
+                                                                                    {
+                                                                                        int comparet = Character.compare(char1, 't');
+                                                                                        if (comparet == 0)
+                                                                                        {
+                                                                                            TextView text = (TextView) findViewById(R.id.textView2);
+                                                                                            text.setText("Given character is a sky Character");
+
+                                                                                        }
+                                                                                        else
+                                                                                        {
+                                                                                            int compareg = Character.compare(char1, 'g');
+                                                                                            if (compareg == 0)
+                                                                                            {
+                                                                                                TextView text = (TextView) findViewById(R.id.textView2);
+                                                                                                text.setText("Given character is a root Character");
+
+                                                                                            }
+                                                                                            else
+                                                                                            {
+                                                                                                int comparej = Character.compare(char1, 'j');
+                                                                                                if (comparej == 0)
+                                                                                                {
+                                                                                                    TextView text = (TextView) findViewById(R.id.textView2);
+                                                                                                    text.setText("Given character is a root Character");
+
+                                                                                                }
+                                                                                                else
+                                                                                                {
+                                                                                                    int comparep = Character.compare(char1, 'p');
+                                                                                                    if (comparep == 0)
+                                                                                                    {
+                                                                                                        TextView text = (TextView) findViewById(R.id.textView2);
+                                                                                                        text.setText("Given character is a root Character");
+
+                                                                                                    }
+                                                                                                    else
+                                                                                                    {
+                                                                                                        int compareq = Character.compare(char1, 'q');
+                                                                                                        if (compareq == 0)
+                                                                                                        {
+                                                                                                            TextView text = (TextView) findViewById(R.id.textView2);
+                                                                                                            text.setText("Given character is a root Character");
+
+                                                                                                        }
+                                                                                                        else
+                                                                                                        {
+                                                                                                            int comparey = Character.compare(char1, 'y');
+                                                                                                            if (comparey == 0)
+                                                                                                            {
+                                                                                                                TextView text = (TextView) findViewById(R.id.textView2);
+                                                                                                                text.setText("Given character is a root Character");
+
+                                                                                                            }
+                                                                                                        }
+                                                                                                    }
+                                                                                                }
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}
