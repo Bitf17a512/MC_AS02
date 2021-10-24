@@ -155,3 +155,21 @@ public class MainActivity extends AppCompatActivity {
                                                                     text.setText("Given character is a sky Character");
 
                                                                 }
+                                                                else
+                                                                {
+                                                                    int compared = Character.compare(char1, 'd');
+                                                                    if (compared == 0)
+                                                                    {
+                                                                        TextView text = (TextView) findViewById(R.id.textView2);
+                                                                        text.setText("Given character is a sky Character");
+
+                                                                    }
+                                                                    else
+                                                                    {
+                                                                        int comparef = Character.compare(char1, 'f');
+                                                                        if (comparef == 0)
+                                                                        {
+                                                                            TextView text = (TextView) findViewById(R.id.textView2);
+                                                                            text.setText("Given character is a sky Character");
+
+                                                                        }
